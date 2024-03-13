@@ -1,16 +1,16 @@
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
     game.StarterGui:SetCore("SendNotification", {
       Icon = "rbxassetid://9152775759";
-          Title = "PANDA HUB", 
-      Text = "Welcome!"
+          Title = "PROXO", 
+      Text = "Welcome PROXO!"
   })
   
   wait(1)
   
   game.StarterGui:SetCore("SendNotification", {
       Icon = "rbxassetid://9152775759";
-      Title = "PANDA HUB    ", 
-      Text = "Made by Nameless"
+      Title = "PROXO    ", 
+      Text = "Loading Ui..."
   })
   
   wait(10)
@@ -20,7 +20,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
           game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
           wait(1)
           game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-      end  
+      end)
   
       _G.Color = Color3.fromRGB(255,0,0)
       if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
@@ -944,7 +944,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
       Toggle.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
       Toggle.Size = UDim2.new(0, 50, 0, 50)
       Toggle.Font = Enum.Font.Code
-      Toggle.Text = "PH"
+      Toggle.Text = "Sx"
       Toggle.TextColor3 = Color3.fromRGB(0, 45, 255 )
       Toggle.TextScaled = true
       Toggle.MouseButton1Down:connect(function()
